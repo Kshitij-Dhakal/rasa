@@ -1,6 +1,12 @@
 version: "3.1"
 
 nlu:
+- intent: navigateTo
+  examples: |
+    - navigate to https://www.google.com
+    - go to https://www.facebook.com
+    - open the link https://www.youtube.com
+
 - intent: weather
   examples: |
     - how is the weather today?
